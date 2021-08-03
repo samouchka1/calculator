@@ -1,0 +1,278 @@
+
+
+
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    width: 36rem;
+    height: 90vh;
+    margin: auto;
+    padding: 0rem 3rem 3rem 3rem;
+    background-color: rgb(70, 70, 70);
+    border: solid;
+}
+
+        .results {
+            grid-row: 1/1;
+            grid-column: 1/6;
+            padding: 3rem;
+            background-color: rgb(0, 0, 0);
+            color: rgb(0, 177, 0);
+            font-size: 2rem;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        
+.zero {
+    text-align: center;
+    padding: 1rem;
+    border: solid;
+    background-color: rgb(100, 100, 100);
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+    .zero:hover {
+        border-style: ridge;
+        background-color: rgb(136, 135, 135);
+        cursor: pointer;
+    }
+
+.one {
+    text-align: center;
+    padding: 1rem;
+    border: solid;
+    background-color: rgb(100, 100, 100);
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+    .one:hover {
+        border-style: ridge;
+        background-color: rgb(136, 135, 135);
+        cursor: pointer;
+    }
+
+.two {
+    text-align: center;
+    padding: 1rem;
+    border: solid;
+    background-color: rgb(100, 100, 100);
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+    .two:hover {
+        border-style: ridge;
+        background-color: rgb(136, 135, 135);
+        cursor: pointer;
+    }
+
+.three {
+    text-align: center;
+    padding: 1rem;
+    border: solid;
+    background-color: rgb(100, 100, 100);
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+    .three:hover {
+        border-style: ridge;
+        background-color: rgb(136, 135, 135);
+        cursor: pointer;
+    }
+
+.four {
+    text-align: center;
+    padding: 1rem;
+    border: solid;
+    background-color: rgb(100, 100, 100);
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+    .four:hover {
+        border-style: ridge;
+        background-color: rgb(136, 135, 135);
+        cursor: pointer;
+    }
+
+.five {
+    text-align: center;
+    padding: 1rem;
+    border: solid;
+    background-color: rgb(100, 100, 100);
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+    .five:hover {
+        border-style: ridge;
+        background-color: rgb(136, 135, 135);
+        cursor: pointer;
+    }
+
+.six {
+    text-align: center;
+    padding: 1rem;
+    border: solid;
+    background-color: rgb(100, 100, 100);
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+    .six:hover {
+        border-style: ridge;
+        background-color: rgb(136, 135, 135);
+        cursor: pointer;
+    }
+
+.seven {
+    text-align: center;
+    padding: 1rem;
+    border: solid;
+    background-color: rgb(100, 100, 100);
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+    .seven:hover {
+        border-style: ridge;
+        background-color: rgb(136, 135, 135);
+        cursor: pointer;
+    }
+
+.eight {
+    text-align: center;
+    padding: 1rem;
+    border: solid;
+    background-color: rgb(100, 100, 100);
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+    .eight:hover {
+        border-style: ridge;
+        background-color: rgb(136, 135, 135);
+        cursor: pointer;
+    }
+
+.nine {
+    text-align: center;
+    padding: 1rem;
+    border: solid;
+    background-color: rgb(100, 100, 100);
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+    .nine:hover {
+        border-style: ridge;
+        background-color: rgb(136, 135, 135);
+        cursor: pointer;
+    }
+
+.decimal {
+    text-align: center;
+    padding: 1rem;
+    border: solid;
+    background-color: rgb(100, 100, 100);
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+    .decimal:hover {
+        border-style: ridge;
+        background-color: rgb(136, 135, 135);
+        cursor: pointer;
+    }
+
+
+/*operators*/
+
+    .division {
+        text-align: center;
+        padding: 1rem;
+        border: solid;
+        background-color: rgb(138, 138, 138);
+        font-size: 2rem;
+        font-family: 'Orbitron', sans-serif;
+    }
+        .division:hover {
+            border-style: ridge;
+            background-color: rgb(163, 163, 163);
+            cursor: pointer;
+        }
+
+    .multiplication {
+        text-align: center;
+        padding: 1rem;
+        border: solid;
+        background-color: rgb(138, 138, 138);
+        font-size: 2rem;
+        font-family: 'Orbitron', sans-serif;
+    }
+        .multiplication:hover {
+            border-style: ridge;
+            background-color: rgb(163, 163, 163);
+            cursor: pointer;
+        }
+
+    .addition {
+        text-align: center;
+        padding: 1rem;
+        border: solid;
+        background-color: rgb(138, 138, 138);
+        font-size: 2rem;
+        font-family: 'Orbitron', sans-serif;
+    }
+        .addition:hover {
+            border-style: ridge;
+            background-color: rgb(163, 163, 163);
+            cursor: pointer;
+        }
+
+    .subtraction {
+        text-align: center;
+        padding: 1rem;
+        border: solid;
+        background-color: rgb(138, 138, 138);
+        font-size: 2rem;
+        font-family: 'Orbitron', sans-serif;
+    }
+        .subtraction:hover {
+            border-style: ridge;
+            background-color: rgb(163, 163, 163);
+            cursor: pointer;
+        }
+
+
+/*main buttons*/       
+
+        .clear {
+            grid-row: 2/4;
+            grid-column: 5/5;
+            text-align: center;
+            background-color: rgb(184, 53, 20);
+            font-size: 2rem;
+            font-family: 'Orbitron', sans-serif;
+            padding: 1rem;
+            border: solid;
+        }
+            .clear:hover {
+                border-style: ridge;
+                background-color: rgb(216, 72, 36);
+                cursor: pointer;
+            }
+
+        .equals {
+            grid-row: 4/6;
+            grid-column: 5/5;
+            text-align: center;
+            background-color: rgb(39, 185, 46);
+            font-size: 2rem;
+            font-family: 'Orbitron', sans-serif;
+            padding: 1rem;
+            border: solid;
+        }
+            .equals:hover {
+                border-style: ridge;
+                background-color: rgb(55, 226, 63);
+                cursor: pointer;
+            }
